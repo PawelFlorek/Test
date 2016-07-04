@@ -1,0 +1,10 @@
+ChainCommand:
+#    - chain:
+#        - "first:command"
+#        - "next:command"
+#    - chain:
+#        - "first:command"
+#        - "next:command"
+    - chain:
+        - "foo:hello"
+        - "bar:hi"

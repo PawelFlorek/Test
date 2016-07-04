@@ -1,0 +1,6 @@
+services:
+    oroinc_chaincommand.command_listener:
+        class: OroInc\ChainCommandBundle\EventListener\CommandListener
+        arguments: ["@logger"]
+        tags:
+            - { name: kernel.event_listener, event: console.command, method: onConsoleCommand }
